@@ -41,8 +41,8 @@ pbs_script = \
 
 # Clear the environment from any previously loaded modules
 module purge
-module load ncarenv/1.3 gnu/11.2.0 ncarcompilers/0.5.0
-module load netcdf/4.8.1 openmpi/4.1.1 julia/1.6.0 cuda/11.6
+module load ncarenv gnu ncarcompilers
+module load netcdf openmpi julia/1.8 cuda
 #module load peak_memusage
 module li
 
